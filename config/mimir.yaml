@@ -38,8 +38,7 @@ alertmanager:
   external_url: http://localhost:9009/alertmanager
 
 server:
-  log_level: info
-  http_listen_address: "0.0.0.0"
+  log_level: warn
 
 
 limits:
