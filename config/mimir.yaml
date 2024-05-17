@@ -39,6 +39,7 @@ alertmanager:
 
 server:
   log_level: info
+  http_listen_address: "0.0.0.0"
 
 
 limits:
