@@ -12,7 +12,7 @@ datasources:
       httpHeaderName1: "X-Scope-OrgID"
       alertmanagerUid: "alertmanager"
     secureJsonData:
-      httpHeaderValue1: "demo"
+      httpHeaderValue1: "tenant-1"
     isDefault: true
   - name: Mimir Alertmanager
     uid: alertmanager
