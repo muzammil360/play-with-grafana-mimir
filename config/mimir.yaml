@@ -46,3 +46,4 @@ limits:
   max_global_series_per_user: 1000000
   ingestion_rate: 100000
   ingestion_burst_size: 2000000
+  max_label_names_per_series: 40
