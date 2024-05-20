@@ -12,7 +12,7 @@ datasources:
       httpHeaderName1: "X-Scope-OrgID"
       alertmanagerUid: "alertmanager"
     secureJsonData:
-      httpHeaderValue1: "tenant-1"
+      httpHeaderValue1: "infitx"
     isDefault: true
   - name: Prometheus
     type: prometheus
@@ -21,11 +21,6 @@ datasources:
     url: http://prometheus:9090
     version: 1
     editable: true
-    # jsonData:
-    #   httpHeaderName1: "X-Scope-OrgID"
-    #   alertmanagerUid: "alertmanager"
-    # secureJsonData:
-    #   httpHeaderValue1: "tenant-1"
     isDefault: false
   - name: Mimir Alertmanager
     uid: alertmanager
@@ -39,4 +34,4 @@ datasources:
       httpHeaderName1: "X-Scope-OrgID"
       implementation: "cortex"
     secureJsonData:
-      httpHeaderValue1: "demo"
+      httpHeaderValue1: "infitx"
